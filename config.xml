@@ -5,14 +5,14 @@
      id    = "com.phonegap.Esqueleto"  
      version  = "1.0.0">  
 	 
-   <name> Nombre </name>  
+   <name> La soga </name>  
    
    <description>  
-     Primer Ejemplo de eventos
+     deberas completar la palabra
    </description>  
    
-   <author href="https://build.phonegap.com" email="micorreo@gmail.com">  
-       Nombre
+   <author href="https://build.phonegap.com" email="rem.dead.letter@gmail.com">  
+      Autor: Saúl Teutle
    </author>  
    
    <!-- Personaliza la aplicacion y plataforma  -->  
@@ -30,8 +30,10 @@
 
    <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />  
    <gap:plugin name="org.apache.cordova.vibration" />  
+   <gap:plugin name="org.apache.cordova.dialogs" version="0.2.10" />
 
    <!-- Third party plugins -->  
+   <gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio" version="1.1.3" />
    
 
    
